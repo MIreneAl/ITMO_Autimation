@@ -48,3 +48,24 @@ if num > 0 and permit_print:
     print('num - положительное число')
 elif not permit_print:
     print('Печать запрещена')
+
+
+def student_rank(year_of_study):
+        if year_of_study in range(1, 4):
+            print ('Бакалавр')
+        elif year_of_study in range(5, 6):
+            print('магистр')
+        elif year_of_study in range(7, 9):
+            print('аспирант')
+        else:
+            print('Введите корректный год обучения')
+
+student_rank(5)
+
+
+a = 100
+
+if num > 100 or num < -100:
+    print('-')
+else:
+    print('+')
