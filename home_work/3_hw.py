@@ -13,3 +13,19 @@ def num(c,d):
     else:
         print('d')
 num(5, 10)
+
+
+def season_year(number_of_month):
+    if number_of_month in range(3, 5):
+        print('Весна')
+    elif number_of_month in range(6, 8):
+        print('Лето')
+    elif number_of_month in range(9, 11):
+        print('осень')
+    else:
+        print('Зима')
+
+
+season_year(4)
+
+
