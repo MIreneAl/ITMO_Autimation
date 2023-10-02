@@ -4,14 +4,17 @@ def num(a, b):
     else:
         print('No')
 
-num(135,0)
+
+num(135, 0)
 
 
-def num(c,d):
-    if (c>d):
+def num(c, d):
+    if c > d:
         print('c')
     else:
         print('d')
+
+
 num(5, 10)
 
 
@@ -29,3 +32,11 @@ def season_year(number_of_month):
 season_year(4)
 
 
+def num(x, y, z):
+    if x > 10 and y > 10 and z > 10:
+        print('Yes')
+    else:
+        print('No')
+
+
+num(11, 45,2)
