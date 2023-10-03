@@ -39,4 +39,16 @@ def num(x, y, z):
         print('No')
 
 
-num(11, 45,2)
+num(11, 45, 2)
+
+
+def kolvo(mylist):
+    k = 0
+    for nun in mylist:
+        if nun >= 0:
+            k = k+1
+    print (k)
+
+
+kolvo([1, -8, 5, 0, 2])
+
