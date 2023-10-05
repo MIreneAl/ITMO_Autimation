@@ -52,3 +52,11 @@ def kolvo(mylist):
 
 kolvo([1, -8, 5, 0, 2])
 
+
+def kol_dn(ky: int, km: int):
+    a = ky * 12 * 29
+    b = km * 29
+    print(a + b)
+
+
+kol_dn(2, 5)
