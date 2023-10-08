@@ -17,3 +17,6 @@ print('\n')
 
 print(catalog_msk.text)
 print('Кнопка' + catalog_msk.text + 'Имеет ссылку' + catalog_msk.link)
+
+
+class Button_Two:
