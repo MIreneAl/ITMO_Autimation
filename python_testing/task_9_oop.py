@@ -20,7 +20,6 @@ print('Кнопка' + catalog_msk.text + 'Имеет ссылку' + catalog_ms
 
 
 class Button_Two:
-
  def __init__(self, text, link, lok):
     self.text = text
     self.link = link
@@ -32,7 +31,8 @@ def click(self):
 
 #Создаем экземпляры класса
 
-home_two = Button_Two ('Домой', '/home', 'button#home')
+
+home_two = Button_Two('Домой', '/home', 'button#home')
 
 # Вызываем метод
 
