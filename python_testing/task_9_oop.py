@@ -36,3 +36,13 @@ home_two = ButtonTwo('Домой', '/home', 'button#home')
 # Вызываем метод
 
 print(home_two.click())
+
+
+class Input:
+    def __input__(self, loc):
+        self.loc = loc
+
+
+search = Input('input#search')
+
+print(search.loc)
