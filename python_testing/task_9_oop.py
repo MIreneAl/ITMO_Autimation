@@ -39,7 +39,7 @@ print(home_two.click())
 
 
 class Input:
-    def __input__(self, loc):
+    def __init__(self, loc):
         self.loc = loc
 
 
