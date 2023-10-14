@@ -1,5 +1,5 @@
-class Restangle:
-    def __int__(self, width, height):
+class Rest:
+    def __init__(self, width, height):
         self.width = width
         self.height = height
 
@@ -10,14 +10,14 @@ class Restangle:
         return self.width * 2 + self.height * 2
 
 
-R1 = Restangle(5, 6)
+R1 = Rest(5, 6)
 print(R1.get_area())
 print(R1.get_perimeter())
 
-R2 = Restangle(3, 8)
+R2 = Rest(3, 8)
 print(R2.get_area())
 print(R2.get_perimeter())
 
-R3 = Restangle(10, 10)
+R3 = Rest(10, 10)
 print(R3.get_area())
 print(R3.get_perimeter())
