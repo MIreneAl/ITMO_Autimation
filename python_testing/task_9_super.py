@@ -12,4 +12,4 @@ class B(A):
 print(B().y)
 
 b = B()
-print(b, y)
+print(b.y)
