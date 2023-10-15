@@ -21,3 +21,21 @@ print(R2.get_perimeter())
 R3 = Rest(10, 10)
 print(R3.get_area())
 print(R3.get_perimeter())
+
+
+class Math:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def get_addition(self):
+        return self.a + self.b
+
+    def get_multiplication(self):
+        return self.a * self.b
+
+    def get_division(self):
+        return self.a / self.b
+
+    def get_subtraction(self):
+        return self.a - self.b
