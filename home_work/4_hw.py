@@ -39,3 +39,10 @@ class Math:
 
     def get_subtraction(self):
         return self.a - self.b
+
+
+Math = Math(5, 5)
+print(Math.get_addition())
+print(Math.get_multiplication())
+print(Math.get_division())
+print(Math.get_subtraction())
