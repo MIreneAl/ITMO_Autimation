@@ -46,3 +46,13 @@ print(Math.get_addition())
 print(Math.get_multiplication())
 print(Math.get_division())
 print(Math.get_subtraction())
+
+
+class Button:
+    def __init__(self, text, mytype='Кнопка', lok=''):
+        self.text = text
+        self.mytype = mytype
+        self.lok = lok
+
+    def cick(self):
+        return
