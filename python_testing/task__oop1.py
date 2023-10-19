@@ -29,16 +29,16 @@ class Link(Checks):
 
 search = Input('input#search', 'Поиск')
 
-print(search.loc, search.text)
+print(search.check_text())
 
 home_three = Button('button#home_three', 'Домой')
 
-print(home_three.loc, home_three.text)
+print(home_three.check_text())
 
 test = Title('title#test', 'Заголовок')
 
-print(test.loc, test.text)
+print(test.check_text())
 
 search_two = Link('link#search_two', 'Связь')
 
-print(search_two.loc, search_two.text)
+print(search_two.check_text())
