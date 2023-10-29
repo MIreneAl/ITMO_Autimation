@@ -15,3 +15,18 @@ if icon is None:
     print('Элемент не найден')
 else:
     print('Элемент найден')
+
+
+footer = driver.find_element(By.CSS_SELECTOR, 'footer > span')
+
+if footer is None:
+    print('Элемент не найден')
+else:
+    print('Элемент найден')
+
+buttons = driver.find_element(By.CSS_SELECTOR, 'div > div > div.home-body > div > div')
+
+if buttons is None:
+    print('Элемент не найден')
+else:
+    print('Элемент найден')
